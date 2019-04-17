@@ -9,6 +9,6 @@ def fizzbuzz(num)
     puts "Buzz"
     return "Buzz"
   else
-    "strange"
+    puts "strange"
   end
 end

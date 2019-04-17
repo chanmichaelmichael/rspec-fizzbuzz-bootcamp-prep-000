@@ -5,7 +5,7 @@
 def fizzbuzz(number)
 #  binding.pry
 output = nil
-  if (number%3 == 0 && number%5 == 10)
+  if number%3 == 0 && number%5 == 10
     output =  "FizzBuzz"
   elseif number%3 == 0
     output = "Fizz"

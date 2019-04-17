@@ -4,10 +4,10 @@
 def fizzbuzz(num)
   num = num.to_i
   if num%3 == 0 && num%5 == 0
-    "FizzBuzz"
+    return "FizzBuzz"
   elseif num%3 == 0
-    "Fizz"
+    return "Fizz"
   elseif num%5 == 0
-    "Buzz"
+    return "Buzz"
   end
 end

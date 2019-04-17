@@ -9,6 +9,6 @@ def fizzbuzz(num)
   elseif num%5==0
     return "Buzz"
   else
-    "stramge"
+    "strange"
   end
 end

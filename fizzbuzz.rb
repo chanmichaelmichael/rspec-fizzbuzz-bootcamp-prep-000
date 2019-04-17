@@ -13,5 +13,4 @@ output = nil
     output = "Buzz"
   end
   return output
-  
 end

@@ -12,4 +12,5 @@ def fizzbuzz(int)
   else
     puts "strange"
   end
+  
 end

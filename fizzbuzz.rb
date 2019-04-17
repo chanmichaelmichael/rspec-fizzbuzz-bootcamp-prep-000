@@ -2,7 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  num = num.to_i
+  three = num%3 
+  five = 
   if num%3 == 0 && num%5 == 0
     return "FizzBuzz"
   elseif num%3 == 0

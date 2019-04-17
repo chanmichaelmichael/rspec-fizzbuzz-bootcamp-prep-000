@@ -1,9 +1,3 @@
-def fizzbuzz(int)
-  if int%3==0
-    "Fizz"
-  end
-end
-
 def fizzbuzz2(int)
   if int%3==0 && int%5==0
     puts "FizzBuzz"

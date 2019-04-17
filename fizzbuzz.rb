@@ -6,6 +6,7 @@ def fizzbuzz(num)
     puts "FizzBuzz"
     return "FizzBuzz"
   elseif num%3==0
+    puts "Fizz"
     return "Fizz"
   elseif num%5==0
     return "Buzz"
